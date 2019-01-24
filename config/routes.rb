@@ -9,7 +9,7 @@ Rails.application.routes.draw do
     #resources :stats, only: [:index]
   #end
   
-  namespace: 'admin' do
+  namespace :admin do
     resources :stats, only: [:index]
   end
   
